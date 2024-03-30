@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    color: gold;
+}
+
+#initial-screen{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+}
+
+#main-heading{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    font-size: 5rem;
+}
+
+#initial-screen p{
+    margin-bottom: 40px;
+}
+
+
+.initial-sc-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+
+#form-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-block: 40px;
+    padding-inline: 20px;
+    border: 3px solid gold;
+    box-shadow: 1px 3px 25px gold;
+    border-radius: 33px;
+    width: 40%;
+}
+
+
+.text-in{
+    padding: 10px;
+    color: black;
+    background-color: darkkhaki;
+    border-radius: 10px;
+}
+
+.note-p{
+    font-size: 0.7rem;
+}
+
+.space-up{
+    margin-top: 15px;
+}
+
+#sbt-btn{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    padding-inline: 30px;
+}
+
+
+/* second screen sytartts  */
+
+.second-screen{
+    width: 90%;
+    justify-self: center;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 33px;
+    padding-block: 25px;
+}
+
+.hori-dash-b{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.system-det-msg{
+    margin-block: 40px;
+}
+
+.prediction-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#pred-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: white; */
+    /* color: black; */
+    border-radius: 33px;
+    border: 2px solid gold;
+    padding: 25px;
+}
+
+#save-pred-btn{
+    padding-inline: 20px;
+    padding-block: 12px;
+    border-radius: 10px;
+    background-color: gold;
+    color: black;
+    margin-top: 20px;
+}
+
+.simple-para{
+    margin: 0%!important;
+}
+
+#result{
+    width: 80%;
+    align-self: center;
+    margin-inline: auto;
+    margin-block: 30px;
+}

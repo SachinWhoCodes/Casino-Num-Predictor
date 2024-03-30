@@ -1,0 +1,55 @@
+<!-- in this game we will ask the user for name and the amount he want to play with and a random number will be selected by math library and the user will be given some chances to play acc to the amount he invested. the more nearby it goes the more it will be a change for his money to be back as next play wealth -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Num Predicter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="initial-screen">
+        <h1 id="main-heading">Num Predictor</h1>
+        <p>Predict the number and win the double of what you invest</p>
+        <div class="initial-sc-section">
+            <form id="form-in">
+                <label for="name">Enter your name</label>
+                <input class="text-in" id="name-in" name="name" type="text" placeholder="e.g. Sachin Verma">
+                <label class="space-up" for="bid-amount">Enter the amount you want to bid</label>
+                <input class="text-in" id="balance-in" name="bid-amount" type="number" placeholder="Money makes money">
+                <p class="note-p">Note: enter the amount in the multiple of 10 i.e. 10,20,50,100</p>
+                <input type="submit" id="sbt-btn" value="Submit" >
+            </form>
+        </div>
+
+
+        <!-- the second screen starts here -->
+
+
+        <div class="second-screen">
+            <div class="hori-dash-b">
+                <h2 id="welcome-user-name">Welcome User Name!</h2>
+                <h3 id="balance-label">Balance: 00</h3>
+            </div>
+            <div class="system-det-msg">
+                <h1>The System Has Decided A Number Ranges From 0-100</h1>
+            </div>
+            <div class="prediction-section">
+                <form id="pred-form" action="">
+                    <label for="prediction-input">Enter the prediction</label>
+                    <input id="pred-num-in" class="text-in" type="number" placeholder="Enter the number ranges from 0 - 100">
+                    <input id="save-pred-btn" type="submit" value="Save the prediction">
+                </form>
+                <p class="simple-para">Your Predictions are:</p>
+                <div id="div-for-pred-array">No data found</div>
+            </div>
+        </div>
+        <h1 id="result"></h1>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
